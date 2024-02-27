@@ -10,3 +10,13 @@ const welcomeBanner = document.querySelector('#welcome p')
 if(isMorning) {welcomeBanner.textContent='Good Morning and Have a Great Day!'}
 else if (isAfternoon){welcomeBanner.textContent='Keep on Keeping on! Almost Done With The Work Day!'}
 else {welcomeBanner.textContent='Have a Great Night and Try to Relax and Unwind!'}
+
+
+
+const key = "It's a secret to everybody."
+
+const value = "+100 rupees for you!"
+
+localStorage.setItem(key,value)
+
+
